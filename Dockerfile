@@ -9,6 +9,7 @@ RUN apt-get update \
         libssl-dev \
         python3-dev \
         python3-pip \
+        wget \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
